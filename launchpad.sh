@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function conditional_install {
+function optional_install {
   read -r -p "Do you want $1? [y/N] " response
   if [[ $response =~ ^[yY] ]]
   then
@@ -71,11 +71,11 @@ nvm alias default stable
 npm install -g gitflow-semver
 npm install -g node-inspector
 
-conditional_install "Atom" "brew cask install atom"
-conditional_install "VS Code" "brew cask install visual-studio-code"
-conditional_install "pgAdmin" "brew cask install pgadmin3"
-conditional_install "Mongohub" "brew cask install mongohub"
-conditional_install "Dropbox" "brew cask install dropbox"
+optional_install "Atom" "brew cask install atom"
+optional_install "VS Code" "brew cask install visual-studio-code"
+optional_install "pgAdmin" "brew cask install pgadmin3"
+optional_install "Mongohub" "brew cask install mongohub"
+optional_install "Dropbox" "brew cask install dropbox"
 
 echo "************************"
 echo " DONE! Now do some work "
