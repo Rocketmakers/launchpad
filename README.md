@@ -1,5 +1,11 @@
 # Launchpad
 
+## Do this:
+
+```
+$ curl -o- https://raw.githubusercontent.com/Rocketmakers/launchpad/master/launchpad.sh | bash
+```
+
 Installs the following:
 
  * XCode command line tools (press install on the dialog that pops up)
