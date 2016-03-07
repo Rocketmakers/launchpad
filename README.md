@@ -18,12 +18,11 @@ Installs the following:
  * dockertoolbox
  * Chrome and Firefox
  * Beyond Compare
- * HipChat
+ * Slack
  * Skype
  * Royal TSX
  * Parallels
- * NVM and latest stable node
- * node-inspector
+ * nodenv
 
 Optionally installs the following (you'll be asked for each one):
 
