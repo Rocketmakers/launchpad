@@ -64,12 +64,8 @@ brew cask install skype
 brew cask install royal-tsx
 brew cask install parallels-desktop
 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-. ~/.bashrc
-nvm install stable
-nvm alias default stable
-npm install -g gitflow-semver
-npm install -g node-inspector
+brew install nodenv
+echo "eval \"\$(nodenv init -)\"" >> ~/.bashrc
 
 optional_install "Atom" "brew cask install atom"
 optional_install "VS Code" "brew cask install visual-studio-code"
