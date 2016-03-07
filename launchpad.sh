@@ -59,7 +59,7 @@ brew cask install dockertoolbox
 brew cask install google-chrome
 brew cask install firefox
 brew cask install beyond-compare
-brew cask install hipchat
+brew cask install slack
 brew cask install skype
 brew cask install royal-tsx
 brew cask install parallels-desktop
