@@ -4,6 +4,8 @@
 
 Install XCode from the app store
 
+Run the following command
+
 ```
 $ curl -o- https://raw.githubusercontent.com/Rocketmakers/launchpad/master/launchpad.sh | bash
 ```
