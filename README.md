@@ -15,14 +15,13 @@ Installs the following:
  * httpie
  * sqitch for PostgreSQL
  * Caskroom for Homebrew
- * dockertoolbox
+ * Docker for Mac
  * Chrome and Firefox
  * Beyond Compare
  * Slack
- * Skype
  * Royal TSX
- * Parallels
  * nodenv
+ * rbenv
 
 Optionally installs the following (you'll be asked for each one):
 
