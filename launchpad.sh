@@ -55,17 +55,18 @@ brew tap theory/sqitch
 brew install sqitch_pg
 
 brew install caskroom/cask/brew-cask
-brew cask install dockertoolbox
+brew cask install docker
 brew cask install google-chrome
 brew cask install firefox
 brew cask install beyond-compare
 brew cask install slack
-brew cask install skype
 brew cask install royal-tsx
-brew cask install parallels-desktop
 
 brew install nodenv
 echo "eval \"\$(nodenv init -)\"" >> ~/.bashrc
+
+brew install rbenv
+echo "eval \"\$(rbenv init -)\"" >> ~/.bashrc
 
 optional_install "Atom" "brew cask install atom"
 optional_install "VS Code" "brew cask install visual-studio-code"
@@ -74,5 +75,5 @@ optional_install "Mongohub" "brew cask install mongohub"
 optional_install "Dropbox" "brew cask install dropbox"
 
 echo "************************"
-echo " DONE! Now do some work "
+echo " DONE! Now do some work 🚀"
 echo "************************"
