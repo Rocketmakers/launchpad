@@ -22,6 +22,7 @@ Installs the following:
  * Royal TSX
  * nodenv
  * Node 6.5.0
+ * Yeoman (global)
  * rbenv
  * Ruby 2.3.1
 
