@@ -21,7 +21,9 @@ Installs the following:
  * Slack
  * Royal TSX
  * nodenv
+ * Node 6.5.0
  * rbenv
+ * Ruby 2.3.1
 
 Optionally installs the following (you'll be asked for each one):
 
