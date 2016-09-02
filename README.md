@@ -2,13 +2,15 @@
 
 ## Do this:
 
+Install XCode from the app store
+
 ```
 $ curl -o- https://raw.githubusercontent.com/Rocketmakers/launchpad/master/launchpad.sh | bash
 ```
 
+
 Installs the following:
 
- * XCode command line tools (press install on the dialog that pops up)
  * Correct `~/.bash_profile` and `~/.bashrc` setup
  * Homebrew
  * Git, git-flow, and gitflow-semver
