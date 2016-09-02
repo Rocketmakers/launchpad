@@ -64,6 +64,10 @@ brew cask install royal-tsx
 
 brew install nodenv
 echo "eval \"\$(nodenv init -)\"" >> ~/.bashrc
+eval "$(nodenv init -)"
+nodenv install 6.5.0
+nodenv global 6.5.0
+npm i yo -g
 
 brew install rbenv
 echo "eval \"\$(rbenv init -)\"" >> ~/.bashrc
