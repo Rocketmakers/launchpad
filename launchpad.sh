@@ -71,6 +71,9 @@ npm i yo -g
 
 brew install rbenv
 echo "eval \"\$(rbenv init -)\"" >> ~/.bashrc
+eval "$(rbenv init -)"
+rbenv install 2.3.1
+rbenv global 2.3.1
 
 optional_install "Atom" "brew cask install atom"
 optional_install "VS Code" "brew cask install visual-studio-code"
